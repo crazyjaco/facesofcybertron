@@ -9,16 +9,16 @@
 		<h2>A CSS coding challenge by Bradley Jacobs</h2>
 		<nav>
 			<ul>
-				<li><a href="https://twitter.com/intent/tweet?text=Faces+of+Cybertron%3A+a+CSS+coding+challenge+by+%40crazyjaco%20http%3A%2F%2Ffaces.ofcybertron.com&source=clicktotweet&related=clicktotweet" class="twitter-link">Tweet!</a></li>
-				<li><a href="#" class="about-link">About</a></li>
+				<li><a href="https://twitter.com/intent/tweet?text=Faces+of+Cybertron%3A+a+CSS+coding+challenge+by+%40crazyjaco%20http%3A%2F%2Ffaces.ofcybertron.com&source=clicktotweet&related=clicktotweet" class="share-twitter-link">Tweet!</a></li>
+				<li><a href="#" class="expand-about">About</a></li>
 			</ul>
 		</nav>
 	</header>
 	<div id="about" class="hidden">
 		<ul class="credits">
-			<li>Bradley Jacobs</li>
-			<li><a href="http://github.com/crazyjaco">Github</a></li>
-			<li><a href="http://twitter.com/crazyjaco">Twitter</a></li>
+			<li class="author-github"><a href="http://github.com/crazyjaco"><img src="images/github.svg" class="github-logo"></a></li>
+			<li class="author-name">Bradley Jacobs</li>
+			<li class="author-twitter"><a href="http://twitter.com/crazyjaco"><img src="images/twitter.svg" class="twitter-logo"></a></li>
 		</ul>
 		<p>
 			Faces of Cybertron started as a #Codevember 2015 coding challenge. 
@@ -32,6 +32,7 @@
 		</ul>
 		<br/>
 		Faces constructed and concepted in <a href="http://codepen.io/collection/APYvYK/">codepen.io</a>.
+		<p class="collapse-about">Close</p>
 	</div>	
 	<!-- #Codevember 2015 - Day 8 - November 2015 -->
 	<div id="starscream" class="entry">
@@ -155,5 +156,34 @@
 		</div>
 	</div>
 	<script src="facesofcybertron.js"></script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-71658287-1', 'auto');
+		ga('send', 'pageview');
+
+		// Header - Expand About
+		jQuery('header').find('.expand-about').click( function( event ){
+			ga('send', 'event','interaction', 'expand about section');
+		});
+
+		jQuery('#about').find('.collapse-about').click( function( event ){
+			ga('send', 'event','interaction', 'collapse about section');
+		})
+
+		// Header - Share on Twitter
+		jQuery('header').find('.share-twitter-link').click( function( event ){
+			ga('send', 'event','interaction','share on twitter');
+		});		
+		
+		// About - Link Click
+		jQuery('#about').find('a').click( function( event ){
+			ga('send', 'event','interaction','about section', 'link clicked', jQuery(this).attr('href') );
+		});		
+
+	</script>	
 </body>
 </html>
