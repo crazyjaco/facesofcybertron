@@ -1,0 +1,22 @@
+{
+  "name": "facesofcybertron",
+  "main": "facesofcybertron.js",
+  "version": "1.0.0",
+  "authors": [
+    "crazyjaco <crazyjac0@gmail.com>"
+  ],
+  "description": "A CSS coding challenge",
+  "license": "MIT",
+  "homepage": "http://faces.ofcybertron.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
