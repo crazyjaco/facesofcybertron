@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+	font-family: helvetica;
+}
+
+/*-- HEADER SECTION --*/
+
+header {
+	background: #222;
+	color: #D1D1D1;
+	padding: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+header h2 {
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+/*-- NAV SECTION --*/
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+    position: absolute;
+    right: 15px;
+    top: 25px;	
+}
+
+header nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	float: right;
+	padding: 0 5px 0 5px;
+}
+
+header ul li a {
+	color: #AAA;
+}
+
+
+/*-- ABOUT SECTION --*/
+
+div#about {
+    background: #3C3C3C;
+    background-image: linear-gradient( to bottom, black 0, transparent 6px), linear-gradient( to top, black 0, transparent 6px );
+    color: #AAA;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    font-family: helvetica;
+}
+
+div#about a {
+	color: white;
+}
+
+div#about .credits {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+div#about .credits li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0 5px 0 5px;
+}
+
+div#about .inspiration {
+	list-style-type: none;
+	margin: 5px 0 5px 5px;
+}
+
+/*-- ENTRIES SECTION --*/
+
+div.entry.wide {
+	width: 100%;
+}
+
+@media (min-width: 960px) {
+	.entry {
+		float: left;
+		width: 50%;
+	}
+}
+
+/*-- UTITLITY SECTION --*/
+
+.hidden {
+	display: none;
+}

@@ -1,0 +1,71 @@
+div#shockwave {
+  background-color: lightblue;
+  height: 300px;
+}
+
+/* Inner Hexagon */
+#shockwave div#face {
+  margin: auto;
+  top: 100px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: relative;
+  box-shadow: 50px 0 0 0 black, 
+    50px 0 0 10px purple,
+    0 0 0 10px purple;
+}
+
+#shockwave div#face::before{
+  content: '';
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: -18px;
+  top: 7px;
+  background: black;
+  transform: rotate(45deg);
+  box-shadow: -8px 8px 0 7px purple;
+}
+
+#shockwave div#face::after {
+  content: '';
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 82px;
+  top: 7px;
+  background: black;
+  transform: rotate(45deg);
+  box-shadow: 8px -8px 0 7px purple;
+}
+
+#shockwave div#eye {
+  position: absolute;
+  height: 26px;
+  width: 26px;
+  left: 37px;
+  top: 12px;
+  background: yellow;
+  border-radius: 13px;
+}
+
+#shockwave div#eye::before{
+  content: '';
+  position: absolute;
+  height: 90px;
+  width: 15px;
+  left: -98px;
+  top: -40px;
+  background: darkgrey;
+}
+
+#shockwave div#eye::after{
+  content: '';
+  position: absolute;
+  height: 90px;
+  width: 15px;
+  left: 109px;
+  top: -40px;
+  background: darkgrey;
+}

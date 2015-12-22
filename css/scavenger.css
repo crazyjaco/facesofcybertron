@@ -1,0 +1,225 @@
+div#scavenger {
+  background: purple;
+  height: 300px;
+}
+
+div#scavenger div#face::before {
+  background: #2B2B2B;
+  background-image: linear-gradient( to right,
+    black 5px,
+    #2B2B2B 5px,
+    #2B2B2B 10px,
+    black 10px,
+    black 12px,
+    #2B2B2B 12px,
+    #2B2B2B 17px,
+    black 17px,
+    black 19px,
+    #2B2B2B 19px,
+    #2B2B2B 24px,
+    black 24px,
+    black 26px,
+    #2B2B2B 26px,
+    #2B2B2B 31px,
+    black 31px,
+    black 33px,
+    #2B2B2B 33px,
+    #2B2B2B 38px,
+    black 38px,
+    black 40px,
+    #2B2B2B 40px,
+    #2B2B2B 45px,
+    black 45px,
+    black 47px,
+    #2B2B2B 47px,
+    #2B2B2B 52px,
+    black 52px,
+    black 54px,
+    #2B2B2B 54px,
+    #2B2B2B 59px,
+    black 59px,
+    black 61px,
+    #2B2B2B 61px,
+    #2B2B2B 66px,
+    black 66px,
+    black 68px,
+    #2B2B2B 68px,
+    #2B2B2B 73px,
+    black 73px,
+    black 75px,
+    #2B2B2B 75px,
+    #2B2B2B 80px,
+    black 80px,
+    black 82px,
+    #2B2B2B 82px,
+    #2B2B2B 86px,
+    black 86px
+  );
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  content: '';
+  height: 4px;
+  left: -5px;
+  position: absolute;
+  top: -14px;
+  width: 90px;
+}
+
+/*div#scavenger div#face::after {
+  content: '';
+  position: relative;
+  background: black;
+  border: 1px solid grey;
+  height: 5px;
+  width: 90px;
+}*/
+
+div#scavenger div#face {
+  position: relative;
+  background: black;
+  height: 100px;
+  width: 80px;
+  margin: auto;
+  top: 100px;
+  border-top: 1px solid grey;
+}
+
+div#scavenger div#forehead {
+  position: relative;
+  background: black;
+/*  border-radius: 5px;*/
+  height: 40px;
+  width: 70px;
+/*  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;*/
+  margin: auto;
+}
+
+/*div#scavenger div#forehead::before {
+  background: black;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  content: '';
+  height: 3px;
+  left: 20px;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}*/
+
+div#scavenger div#crest {
+  background: black;
+  position: absolute;
+  height: 6px;
+  width: 70px;
+  margin: auto;
+  top: 20px;
+  border-bottom: 6px solid #2B2B2B;
+  border-left: 5px solid #2B2B2B;
+  border-right: 5px solid #2B2B2B;
+  border-top: 6px solid #2B2B2B;
+}
+
+div#scavenger div#crest::before {
+  content: '';
+  position: absolute;
+  height: 0;
+  left: 17px;
+  width: 16px;
+  margin: auto;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid #2B2B2B;
+  top: -24px;  
+}
+
+div#scavenger div#crest-base {
+  position: relative;
+  height: 0;
+  width: 24px;
+  margin: auto;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 12px solid #2B2B2B;
+  top: -6px;
+}
+
+div#scavenger div#crest-base::before {
+  content: '';
+  position: absolute;
+  height: 0;
+  left: 1px;
+  width: 8px;
+  margin: auto;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 12px solid black;
+  top: -24px;  
+}
+
+div#scavenger div#crest-overlay {
+  position: relative;
+  height: 0;
+  width: 10px;
+  margin: auto;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 12px solid black;
+  top: -12px;
+}
+
+/*div#scavenger div#face-sides {
+  background: grey;
+  height: 60px;
+  margin: auto;
+  position: relative;
+  width: 100px;
+}*/
+
+div#scavenger div#face-bg {
+  position: relative;
+  background: silver;
+  background-image: linear-gradient(to right,
+    grey 8px,
+    silver 8px,
+    silver 62px,
+    grey 62px
+  );
+  height: 60px;
+  width: 70px;
+  margin: auto;
+}
+
+div#scavenger div#visor { 
+  height: 0;
+  width: 54px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 15px solid red;
+  position: absolute;
+}
+
+div#scavenger div#nose {
+  position: relative;
+  width: 4px;
+  border-bottom: 6px solid silver;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  margin: auto;
+  top: -6px;
+  border-radius: 2px 2px 0 0;
+}
+
+div#scavenger div#mouth {
+  width: 24px;
+  height: 32px;
+  border-bottom: 2px solid grey;
+  border-left: 4px solid grey;
+  border-right: 4px solid grey;
+  border-top: 2px solid lightgrey;
+  position: relative;
+  top: 2px;
+  margin: auto;
+}

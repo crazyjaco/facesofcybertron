@@ -1,0 +1,113 @@
+div#scrapper {
+  background: purple;
+  height: 300px;
+}
+
+#scrapper div#face::before {
+  background: black;
+  content: '';
+  height: 8px;
+  left: -5px;
+  position: absolute;
+  top: -9px;
+  width: 90px;
+}
+
+#scrapper div#face {
+  position: relative;
+  background: black;
+  height: 100px;
+  width: 80px;
+  margin: auto;
+  top: 100px;
+  border-top: 1px solid grey;
+}
+
+#scrapper div#forehead {
+  height: 0;
+  width: 40px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid lightgrey;
+  margin: auto;
+}
+
+#scrapper div#forehead::before {
+  content: '';
+  height: 0;
+  position: absolute;
+  width: 0;
+  left: 5px;
+  top: 0px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid grey;
+}
+
+#scrapper div#crest {
+  position: relative;
+  height: 0;
+  width: 20px;
+  margin: auto;
+  top: 20px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 10px solid black;
+}
+
+#scrapper div#face-bg {
+  position: relative;
+  background: grey;
+  height: 70px;
+  width: 70px;
+  margin: auto;
+}
+
+#scrapper div#visor { 
+  height: 25px;
+  width: 65px;
+  background: red;
+  margin: auto;
+  border-radius: 0 0 10px 10px
+}
+
+#scrapper div#nose {
+  position: relative;
+  background: lightgrey;
+  width: 8px;
+  height: 6px;
+  margin: auto;
+  top: 19px;
+  border-radius: 2px 2px 0 0;
+}
+
+#scrapper div#faceplate {
+  background: lightgrey;
+  border-top: 1px solid black;
+  border-radius: 0 0 4px 4px;
+  height: 40px;
+  width: 60px;
+  margin: auto;
+}
+
+/* bottom of faceplate */
+#scrapper div#faceplate::before {
+  content: '';
+  position: absolute;
+  top: 65px;
+  border-top: 9px solid lightgrey;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+}
+
+#scrapper div#faceplate::after {
+  background: black;
+  border-radius: 10px 10px 0 0;
+  content: '';
+  height: 45px;
+  left: -5px;
+  position: absolute;
+  width: 10px;
+  top: 25px;
+  box-shadow: 70px 0 0 0 black;
+}

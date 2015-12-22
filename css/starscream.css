@@ -1,0 +1,177 @@
+
+div#starscream {
+  background: orangered;
+  height: 300px;
+}
+
+div#starscream div#vents {
+  background: #2B2B2B;
+  background-image: -webkit-linear-gradient();
+  background-image: -moz-linear-gradient();
+  background-image: -o-linear-gradient();
+  background-image: linear-gradient( to bottom,
+    #2B2B2B 10px,
+    black 10px,
+    black 11px,
+    #2B2B2B 11px,
+    #2B2B2B 20px,
+    black 20px,
+    black 21px,
+    #2B2B2B 21px,
+    #2B2B2B 30px,
+    black 30px,
+    black 31px,
+    #2B2B2B 31px,
+    #2B2B2B 40px,
+    black 40px,
+    black 41px,
+    #2B2B2B 41px,
+    #2B2B2B 50px,
+    black 50px,
+    black 51px,
+    #2B2B2B 51px,
+    #2B2B2B 60px,
+    black 60px,
+    black 61px,
+    #2B2B2B 61px,
+    #2B2B2B 70px,
+    black 70px,
+    black 71px,
+    #2B2B2B 71px,
+    #2B2B2B 80px
+  );
+  border-radius: 8px 8px 8px 8px;
+  border-left: 5px solid #222222;
+  border-right: 5px solid #222222;
+  height: 80px;
+  margin: auto;
+  position: relative;
+  top: 110px;
+  width: 106px;
+}
+
+div#starscream div#forehead {
+  background: #222222;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  height: 30px;
+  margin: auto;
+  position: relative;
+  top: 25px;
+  width: 25px;
+  box-shadow: -27px 0 0 0 #222222,
+    -27px -10px 0 0 #222222,
+    27px 0 0 0 #222222,
+    27px -10px 0 0 #222222    
+}
+
+div#starscream div#face-bg {
+  background: #222222;
+  background-image: -webkit-linear-gradient();
+  background-image: -moz-linear-gradient();
+  background-image: -o-linear-gradient();
+  background-image: linear-gradient(to bottom,
+    black 5px,
+    #222 10px,
+    #222 20px,
+    black 20px,
+    black 21px,
+    #222 21px
+  );
+  height: 60px;
+  margin: auto;
+  position: relative;
+  top: 25px;
+  width: 81px;
+}
+
+div#starscream div#faceplate {
+  background: #3F3F3F;
+  background-image: linear-gradient(to bottom,
+    black 5px,
+    transparent 10px
+  ),
+  linear-gradient(to right,
+    #2B2B2B 11px,
+    transparent 11px,
+    transparent 51px,
+    #2B2B2B 51px
+  );   
+  border-radius: 0 0 15px 15px;
+  height: 64px;
+  margin: auto;
+  width: 60px;
+}
+
+div#starscream div.eye {
+  background: red;
+  height: 8px;
+  margin: auto;
+  top: 4px;
+  position: relative;
+  width: 15px;
+}
+
+div#starscream div.eye::before {
+  content: '';
+  position: absolute;
+  border-bottom: 4px solid transparent;
+  border-right: 4px solid red;
+  border-top: 4px solid transparent;
+  left: -4px;
+}
+
+div#starscream div.eye::after {
+  content: '';
+  position: absolute;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid red;
+  border-top: 4px solid transparent;
+  left: 15px;
+}
+
+div#starscream div#lefteye {
+  /*left: -10px*/
+  float: left;
+  left: 5px
+}
+
+div#starscream div#righteye {
+  /*left: 10px; */ 
+  float: right;
+  right: 5px
+}
+
+div#starscream div#nose {
+  background: #555;
+  background-image: linear-gradient(to bottom,
+    black 3px,
+    transparent 7px,
+    transparent 20px     
+  );
+  /*border: 1px solid black;*/
+  height: 22px;
+  margin: auto;
+  width: 10px;
+}
+
+div#starscream div#nose::after {
+  content: '';
+  position: absolute;
+  border-top: 4px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  top: 22px;
+  width: 6px
+}
+
+div#starscream div#mouth {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 0 0 0 5px;
+  height: 3px;
+  margin: auto;
+  position: relative;
+  top: 20px;
+  width: 25px;
+}

@@ -1,0 +1,147 @@
+div#hook {
+  background: purple;
+  height: 300px;
+}
+
+div#hook div#face::before {
+  background: black;
+  content: '';
+  height: 8px;
+  left: -5px;
+  position: absolute;
+  top: -9px;
+  width: 90px;
+}
+
+div#hook div#face {
+  position: relative;
+  background: black;
+  height: 100px;
+  width: 80px;
+  margin: auto;
+  top: 100px;
+  border-top: 1px solid grey;
+}
+
+div#hook div#forehead {
+  position: relative;
+  background: black;
+  border-radius: 5px;
+  height: 30px;
+  width: 70px;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+  margin: auto;
+}
+
+div#hook div#forehead::before {
+  background: black;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  content: '';
+  height: 3px;
+  left: 20px;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}
+
+div#hook div#crest {
+  background: black;
+  position: absolute;
+  height: 10px;
+  width: 78px;
+  margin: auto;
+  top: 20px;
+  /*border-bottom: 1px solid grey;*/
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+  border-radius: 4px 4px 0 0;  
+}
+
+div#hook div#face-bg {
+  position: relative;
+  background: silver;
+  border-radius: 0 0 20px 20px;
+  height: 70px;
+  width: 60px;
+  margin: auto;
+}
+
+div#hook div#visor { 
+  height: 25px;
+  width: 70px;
+  background: red;
+  border-radius: 0 0 10px 10px;
+  left: -5px;
+  position: absolute;
+}
+
+div#hook div#nose {
+  position: relative;
+  background: lightgrey;
+  width: 8px;
+  height: 14px;
+  margin: auto;
+  border-bottom: 4px solid grey;
+  top: 19px;
+  border-radius: 2px 2px 0 0;
+}
+
+div#hook div#mouth {
+  width: 20px;
+  height: 2px;
+  border-bottom 1px solid transparent;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+  position: relative;
+  top: 30px;
+  margin: auto;
+}
+
+div#hook div#chin {
+  border-bottom: 15px solid grey;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  height: 0px;
+  margin: auto;
+  position: relative;
+  top: 34px;
+  width: 10px;
+}
+
+div#hook div#faceplate {
+  background: lightgrey;
+  border-top: 1px solid black;
+  border-radius: 0 0 4px 4px;
+  height: 40px;
+  width: 60px;
+  margin: auto;
+}
+
+div#hook div#face-bg::before,
+div#hook div#face-bg::after {
+  background: black;
+  border-left: 1px solid grey;
+  border-radius: 4px 4px 0 0;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+  content: '';
+  height: 35px;
+  position: absolute;
+  width: 12px;
+  top: 34px;
+  /*box-shadow: 70px 0 0 0 black;*/
+}
+
+div#hook div#face-bg::before {
+  left: -10px;
+}
+
+div#hook div#face-bg::after {
+  left: 56px;
+}

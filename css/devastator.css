@@ -1,0 +1,154 @@
+div#devastator {
+  height: 300px;
+  background: yellow;
+}
+
+div#devastator div#face-backplate-top {
+  position: relative;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 30px solid black;
+  margin: auto;
+  top: 50px;
+  width: 140px;
+}
+
+div#devastator div#face-backplate {
+  position: relative;
+  background: black;
+  width: 180px;
+  height: 120px;
+  margin: auto;
+  top: 50px;
+}
+
+div#devastator div#face-backplate-bottom {
+  position: relative;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 30px solid black;
+  margin: auto;
+  top: 50px;
+  width: 140px;
+}
+
+div#devastator div#face-backplate div#forehead {
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 70px solid silver;
+  margin: auto;
+  position: relative;
+  top: -20px;
+  width: 100px;
+}
+
+div#devastator div#face-backplate div#forehead div#crest {
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 50px solid grey;
+  left: 30px;
+  width: 20px;
+  margin: auto;
+  top: 5px;
+}
+
+div#devastator div#face-backplate div#forehead div#crest::after {
+  content: '';
+  position: absolute;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid silver;
+  /*border-radius: 4px;*/
+  left: -10px;
+  width: 34px;
+  top: 45px;
+}
+
+div#devastator div#face-backplate div#face {
+  position: relative;
+  margin: auto;
+  top: -20px;
+  width: 140px;
+}
+
+div#devastator div#face-backplate div#face div#face-front {
+  background: lightgrey;
+  height: 70px;
+  margin: auto;
+  position: relative;
+  width: 120px;
+}
+
+div#devastator div#face-backplate-bottom div#face-front-bottom {
+  position: relative;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 30px solid lightgrey;
+  top: -30px;
+  width: 80px;
+  margin: auto;
+}
+
+div#devastator div#face-backplate div#face div#visor {
+  background: red;
+  height: 40px;
+  position: relative;
+  margin: auto;
+  top: 0px;
+  width: 140px;
+}
+
+div#devastator div#face-backplate div#face div#visor::after {
+  content: '';
+  position: absolute;
+  border-bottom: 5px solid lightgrey;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  width: 16px;
+  height: 0;
+  bottom: 0;
+  left: 60px;
+}
+
+/*div#devastator div#face-backplate-bottom div#face-front div#nose {
+  position: relative;
+  height: 0;
+  width: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid grey;  
+}*/
+
+div#devastator div#face-backplate-bottom div#face-front-bottom div#mouth {
+  position: relative;
+  margin: auto;
+  border-top: 2px solid grey;
+  border-right: 5px solid grey;
+  border-left: 1px solid grey;
+  border-bottom: 2px solid transparent;
+  border-radius: 0 40% 0 0;
+  top: -30px;
+  margin: auto;
+  width: 80px;
+}
+
+div#devastator div#face-backplate-bottom div#face-front-bottom div#chin {
+  position: relative;
+  margin: auto;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid grey;
+  top: -24px;
+  margin: auto;
+  width: 30px;
+}
+
+div#devastator div#neck {
+  background: black;
+  height: 40px;
+  margin: auto;
+  position: relative;
+  top: -4px;
+  width: 140px;
+}

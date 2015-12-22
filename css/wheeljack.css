@@ -1,0 +1,144 @@
+#wheeljack {
+  background-color: red;
+  height: 300px;
+}
+
+#wheeljack #face {
+  margin: auto;
+  position: relative;
+  display: block;
+}
+
+#wheeljack #faceplate::before {
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 30px;
+  left: -80px;
+  border-left: 20px solid transparent;
+  border-top: 0px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-right: 60px solid grey;
+  top: -20px;
+}
+
+#wheeljack #faceplate::after {
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 30px;
+  left: 100px;
+  border-left: 20px solid transparent;
+  border-top: 0px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-right: 60px solid grey;
+  top: -20px;
+  transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+}
+
+#wheeljack #forehead {
+  position: relative;
+  width: 100px;
+  margin: auto;
+  height: 40px;
+  top: 84px;
+  background: grey;
+  border-radius: 50px 50px 0 0;
+}
+
+#wheeljack #mohawk, #wheeljack #mohawk::before, #wheeljack #mohawk::after {
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  background: lightgrey;
+}
+
+#wheeljack #mohawk {
+    left: 40px;
+    top: -20px;
+}
+
+#wheeljack #mohawk::before {
+  content: '';
+  left: -45px;
+  top: 10px;
+  transform: rotate(-45deg);
+}
+
+#wheeljack #mohawk:after {
+  content: '';
+  left: 45px;
+  top: 10px;
+  transform: rotate(45deg);
+}
+#wheeljack #nose::before, #wheeljack #nose::after {
+  position: absolute;
+  background-color: lightblue;
+  content: '';
+  width: 30px;
+  height: 15px;
+  top: 90px;
+}
+
+#wheeljack #nose::before {
+  left: -40px;
+}
+
+#wheeljack #nose::after {
+  left: 10px;
+}
+
+#wheeljack #nose {
+  background-color: red;
+  position: relative;
+  margin: auto;
+  width: 1px;  
+}
+
+#wheeljack #faceplate {
+  position: relative;
+  background-color: grey;
+  height: 65px;
+  width: 100px;
+  border-radius: 0 0 40px 40px;
+  margin: auto;
+  top: 100px;
+}
+
+#wheeljack hr#faceplate-divider {
+  top: 5px;
+  width: 100px;
+  height: 1px;
+  background: lightgrey;
+}
+
+#wheeljack hr#faceplate-divider::before {
+  position: absolute;
+  content: '';
+  width: 92px;
+  left: 4px;
+  top: 40px;
+  height: 2px;
+  background: lightgrey;
+}
+
+/*#faceplate::before, #faceplate::after {
+  position: absolute;
+  height: 4px;
+  width: 100px;
+  left: 0;
+  background: black;
+  content: '';
+}
+
+#faceplate::before {
+  top: 20px;
+}
+
+#faceplate::after {
+  top: 45px;
+}
+*/

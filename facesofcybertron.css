@@ -1,0 +1,1308 @@
+div#devastator {
+  height: 300px;
+  background: yellow;
+}
+
+div#devastator div#face-backplate-top {
+  position: relative;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 30px solid black;
+  margin: auto;
+  top: 50px;
+  width: 140px;
+}
+
+div#devastator div#face-backplate {
+  position: relative;
+  background: black;
+  width: 180px;
+  height: 120px;
+  margin: auto;
+  top: 50px;
+}
+
+div#devastator div#face-backplate-bottom {
+  position: relative;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 30px solid black;
+  margin: auto;
+  top: 50px;
+  width: 140px;
+}
+
+div#devastator div#face-backplate div#forehead {
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 70px solid silver;
+  margin: auto;
+  position: relative;
+  top: -20px;
+  width: 100px;
+}
+
+div#devastator div#face-backplate div#forehead div#crest {
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 50px solid grey;
+  left: 30px;
+  width: 20px;
+  margin: auto;
+  top: 5px;
+}
+
+div#devastator div#face-backplate div#forehead div#crest::after {
+  content: '';
+  position: absolute;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid silver;
+  /*border-radius: 4px;*/
+  left: -10px;
+  width: 34px;
+  top: 45px;
+}
+
+div#devastator div#face-backplate div#face {
+  position: relative;
+  margin: auto;
+  top: -20px;
+  width: 140px;
+}
+
+div#devastator div#face-backplate div#face div#face-front {
+  background: lightgrey;
+  height: 70px;
+  margin: auto;
+  position: relative;
+  width: 120px;
+}
+
+div#devastator div#face-backplate-bottom div#face-front-bottom {
+  position: relative;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 30px solid lightgrey;
+  top: -30px;
+  width: 80px;
+  margin: auto;
+}
+
+div#devastator div#face-backplate div#face div#visor {
+  background: red;
+  height: 40px;
+  position: relative;
+  margin: auto;
+  top: 0px;
+  width: 140px;
+}
+
+div#devastator div#face-backplate div#face div#visor::after {
+  content: '';
+  position: absolute;
+  border-bottom: 5px solid lightgrey;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  width: 16px;
+  height: 0;
+  bottom: 0;
+  left: 60px;
+}
+
+/*div#devastator div#face-backplate-bottom div#face-front div#nose {
+  position: relative;
+  height: 0;
+  width: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid grey;  
+}*/
+
+div#devastator div#face-backplate-bottom div#face-front-bottom div#mouth {
+  position: relative;
+  margin: auto;
+  border-top: 2px solid grey;
+  border-right: 5px solid grey;
+  border-left: 1px solid grey;
+  border-bottom: 2px solid transparent;
+  border-radius: 0 40% 0 0;
+  top: -30px;
+  margin: auto;
+  width: 80px;
+}
+
+div#devastator div#face-backplate-bottom div#face-front-bottom div#chin {
+  position: relative;
+  margin: auto;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid grey;
+  top: -24px;
+  margin: auto;
+  width: 30px;
+}
+
+div#devastator div#neck {
+  background: black;
+  height: 40px;
+  margin: auto;
+  position: relative;
+  top: -4px;
+  width: 140px;
+}
+div#hook {
+  background: purple;
+  height: 300px;
+}
+
+div#hook div#face::before {
+  background: black;
+  content: '';
+  height: 8px;
+  left: -5px;
+  position: absolute;
+  top: -9px;
+  width: 90px;
+}
+
+div#hook div#face {
+  position: relative;
+  background: black;
+  height: 100px;
+  width: 80px;
+  margin: auto;
+  top: 100px;
+  border-top: 1px solid grey;
+}
+
+div#hook div#forehead {
+  position: relative;
+  background: black;
+  border-radius: 5px;
+  height: 30px;
+  width: 70px;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+  margin: auto;
+}
+
+div#hook div#forehead::before {
+  background: black;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  content: '';
+  height: 3px;
+  left: 20px;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}
+
+div#hook div#crest {
+  background: black;
+  position: absolute;
+  height: 10px;
+  width: 78px;
+  margin: auto;
+  top: 20px;
+  /*border-bottom: 1px solid grey;*/
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+  border-radius: 4px 4px 0 0;  
+}
+
+div#hook div#face-bg {
+  position: relative;
+  background: silver;
+  border-radius: 0 0 20px 20px;
+  height: 70px;
+  width: 60px;
+  margin: auto;
+}
+
+div#hook div#visor { 
+  height: 25px;
+  width: 70px;
+  background: red;
+  border-radius: 0 0 10px 10px;
+  left: -5px;
+  position: absolute;
+}
+
+div#hook div#nose {
+  position: relative;
+  background: lightgrey;
+  width: 8px;
+  height: 14px;
+  margin: auto;
+  border-bottom: 4px solid grey;
+  top: 19px;
+  border-radius: 2px 2px 0 0;
+}
+
+div#hook div#mouth {
+  width: 20px;
+  height: 2px;
+  border-bottom 1px solid transparent;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+  position: relative;
+  top: 30px;
+  margin: auto;
+}
+
+div#hook div#chin {
+  border-bottom: 15px solid grey;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  height: 0px;
+  margin: auto;
+  position: relative;
+  top: 34px;
+  width: 10px;
+}
+
+div#hook div#faceplate {
+  background: lightgrey;
+  border-top: 1px solid black;
+  border-radius: 0 0 4px 4px;
+  height: 40px;
+  width: 60px;
+  margin: auto;
+}
+
+div#hook div#face-bg::before,
+div#hook div#face-bg::after {
+  background: black;
+  border-left: 1px solid grey;
+  border-radius: 4px 4px 0 0;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+  content: '';
+  height: 35px;
+  position: absolute;
+  width: 12px;
+  top: 34px;
+  /*box-shadow: 70px 0 0 0 black;*/
+}
+
+div#hook div#face-bg::before {
+  left: -10px;
+}
+
+div#hook div#face-bg::after {
+  left: 56px;
+}
+div#omega-supreme {
+  height: 300px;
+  background: yellow;
+}
+
+div#omega-supreme div#tank-gun {
+  position: relative;
+  height: 0;
+  margin: auto;
+  top: 60px;
+  width: 140px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 40px solid red;
+  
+}
+
+div#omega-supreme div#tank-gun::before {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 10px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 15px solid red;
+  border-radius: 0 0 20px 20px;
+  left: 60px;
+  top: -45px;
+}
+
+div#omega-supreme div#tank-gun::after {
+  content: '';
+  position: absolute;
+  /*margin: auto;*/
+  height: 0;
+  width: 10px;
+  top: -40px;
+  left: 60px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 40px solid red;
+}
+
+div#omega-supreme div#backplate {
+  position: relative;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid green;
+  width: 180px;
+  height: 0;
+  margin: auto;
+  top: 40px;
+}
+
+div#omega-supreme div#backplate::before {
+  content: '';
+  position: absolute;
+  background: darkgreen;
+  height: 60px;
+  left: -20px;
+  top: 40px;
+  width: 220px;
+}
+
+div#omega-supreme div#faceplate {
+  position: relative;
+  width: 160px;
+  background: green;
+  border-top: 1px solid darkgreen;
+  height: 110px;
+  border-radius: 50% 50% 0 0;
+  left: 0px;
+  top: -11px;
+  margin: auto;
+}
+
+div#omega-supreme div#faceplate::before {
+  content: '';
+  position: absolute;
+  border-top: 60px solid orange;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-radius: 45px;
+  top: 30px;
+  width: 60px;
+}
+
+div#omega-supreme div#eyes {
+  background: blue;
+  height: 10px;
+  left: -30px;
+  margin: auto;
+  position: relative;
+  top: 40px;
+  width: 40px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 60px 0 0 0 blue,
+    60px 0 0 0 #AFAFFF;
+}
+
+/*div#omega-supreme div#mouth {
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  border-top: 3px solid grey;
+  border-bottom: 1px solid transparent;
+  margin: auto;
+  position: relative;
+  top: 60px;
+  width: 40px;
+}*/
+
+div#omega-supreme div#scuba-mask {
+  background: darkgreen;
+  height: 40px;
+  margin: auto;
+  position: relative;
+  top: 70px;
+  width: 60px;
+}
+
+/*div#omega-supreme div#scuba-mask::before {
+  background: blue;
+  content: '';
+  height: 60px;
+  left: -80px;
+  position: absolute;
+  top: -30px;
+  width: 40px;
+}*/
+
+div#omega-supreme div#left-tube {
+  background: green;
+  border-radius: 5px 5px 0 0;
+  border: 1px solid darkgreen;
+  height: 40px;
+  left: -60px;
+  position: relative;
+  transform: rotate(-45deg);
+  width: 10px;
+  top: -10px;
+}
+
+div#omega-supreme div#left-tube-front {
+  background: green;
+  border-radius: 5px 0 0 5px;
+  border-top: 1px solid darkgreen;
+  border-bottom: 1px solid darkgreen;
+  height: 10px;
+  left: -46px;
+  position: relative;
+  top: -24px;
+  width: 46px;
+}
+
+div#omega-supreme div#right-tube {
+  background: green;
+  border-radius: 5px 5px 0 0;
+  border: 1px solid darkgreen;
+  height: 40px;
+  left: 108px;
+  position: relative;
+  transform: rotate(45deg);
+  width: 10px;
+  top: -64px;
+}
+
+div#omega-supreme div#right-tube-front {
+  background: green;
+  border-radius: 0 5px 5px 0;
+  border-top: 1px solid darkgreen;
+  border-bottom: 1px solid darkgreen;
+  height: 10px;
+  left: 60px;
+  position: relative;
+  top: -78px;
+  width: 46px;
+}
+div#scavenger {
+  background: purple;
+  height: 300px;
+}
+
+div#scavenger div#face::before {
+  background: #2B2B2B;
+  background-image: linear-gradient( to right,
+    black 5px,
+    #2B2B2B 5px,
+    #2B2B2B 10px,
+    black 10px,
+    black 12px,
+    #2B2B2B 12px,
+    #2B2B2B 17px,
+    black 17px,
+    black 19px,
+    #2B2B2B 19px,
+    #2B2B2B 24px,
+    black 24px,
+    black 26px,
+    #2B2B2B 26px,
+    #2B2B2B 31px,
+    black 31px,
+    black 33px,
+    #2B2B2B 33px,
+    #2B2B2B 38px,
+    black 38px,
+    black 40px,
+    #2B2B2B 40px,
+    #2B2B2B 45px,
+    black 45px,
+    black 47px,
+    #2B2B2B 47px,
+    #2B2B2B 52px,
+    black 52px,
+    black 54px,
+    #2B2B2B 54px,
+    #2B2B2B 59px,
+    black 59px,
+    black 61px,
+    #2B2B2B 61px,
+    #2B2B2B 66px,
+    black 66px,
+    black 68px,
+    #2B2B2B 68px,
+    #2B2B2B 73px,
+    black 73px,
+    black 75px,
+    #2B2B2B 75px,
+    #2B2B2B 80px,
+    black 80px,
+    black 82px,
+    #2B2B2B 82px,
+    #2B2B2B 86px,
+    black 86px
+  );
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  content: '';
+  height: 4px;
+  left: -5px;
+  position: absolute;
+  top: -14px;
+  width: 90px;
+}
+
+/*div#scavenger div#face::after {
+  content: '';
+  position: relative;
+  background: black;
+  border: 1px solid grey;
+  height: 5px;
+  width: 90px;
+}*/
+
+div#scavenger div#face {
+  position: relative;
+  background: black;
+  height: 100px;
+  width: 80px;
+  margin: auto;
+  top: 100px;
+  border-top: 1px solid grey;
+}
+
+div#scavenger div#forehead {
+  position: relative;
+  background: black;
+/*  border-radius: 5px;*/
+  height: 40px;
+  width: 70px;
+/*  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;*/
+  margin: auto;
+}
+
+/*div#scavenger div#forehead::before {
+  background: black;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  content: '';
+  height: 3px;
+  left: 20px;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}*/
+
+div#scavenger div#crest {
+  background: black;
+  position: absolute;
+  height: 6px;
+  width: 70px;
+  margin: auto;
+  top: 20px;
+  border-bottom: 6px solid #2B2B2B;
+  border-left: 5px solid #2B2B2B;
+  border-right: 5px solid #2B2B2B;
+  border-top: 6px solid #2B2B2B;
+}
+
+div#scavenger div#crest::before {
+  content: '';
+  position: absolute;
+  height: 0;
+  left: 17px;
+  width: 16px;
+  margin: auto;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid #2B2B2B;
+  top: -24px;  
+}
+
+div#scavenger div#crest-base {
+  position: relative;
+  height: 0;
+  width: 24px;
+  margin: auto;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 12px solid #2B2B2B;
+  top: -6px;
+}
+
+div#scavenger div#crest-base::before {
+  content: '';
+  position: absolute;
+  height: 0;
+  left: 1px;
+  width: 8px;
+  margin: auto;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 12px solid black;
+  top: -24px;  
+}
+
+div#scavenger div#crest-overlay {
+  position: relative;
+  height: 0;
+  width: 10px;
+  margin: auto;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 12px solid black;
+  top: -12px;
+}
+
+/*div#scavenger div#face-sides {
+  background: grey;
+  height: 60px;
+  margin: auto;
+  position: relative;
+  width: 100px;
+}*/
+
+div#scavenger div#face-bg {
+  position: relative;
+  background: silver;
+  background-image: linear-gradient(to right,
+    grey 8px,
+    silver 8px,
+    silver 62px,
+    grey 62px
+  );
+  height: 60px;
+  width: 70px;
+  margin: auto;
+}
+
+div#scavenger div#visor { 
+  height: 0;
+  width: 54px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 15px solid red;
+  position: absolute;
+}
+
+div#scavenger div#nose {
+  position: relative;
+  width: 4px;
+  border-bottom: 6px solid silver;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  margin: auto;
+  top: -6px;
+  border-radius: 2px 2px 0 0;
+}
+
+div#scavenger div#mouth {
+  width: 24px;
+  height: 32px;
+  border-bottom: 2px solid grey;
+  border-left: 4px solid grey;
+  border-right: 4px solid grey;
+  border-top: 2px solid lightgrey;
+  position: relative;
+  top: 2px;
+  margin: auto;
+}
+
+div#scrapper {
+  background: purple;
+  height: 300px;
+}
+
+#scrapper div#face::before {
+  background: black;
+  content: '';
+  height: 8px;
+  left: -5px;
+  position: absolute;
+  top: -9px;
+  width: 90px;
+}
+
+#scrapper div#face {
+  position: relative;
+  background: black;
+  height: 100px;
+  width: 80px;
+  margin: auto;
+  top: 100px;
+  border-top: 1px solid grey;
+}
+
+#scrapper div#forehead {
+  height: 0;
+  width: 40px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid lightgrey;
+  margin: auto;
+}
+
+#scrapper div#forehead::before {
+  content: '';
+  height: 0;
+  position: absolute;
+  width: 0;
+  left: 5px;
+  top: 0px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid grey;
+}
+
+#scrapper div#crest {
+  position: relative;
+  height: 0;
+  width: 20px;
+  margin: auto;
+  top: 20px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 10px solid black;
+}
+
+#scrapper div#face-bg {
+  position: relative;
+  background: grey;
+  height: 70px;
+  width: 70px;
+  margin: auto;
+}
+
+#scrapper div#visor { 
+  height: 25px;
+  width: 65px;
+  background: red;
+  margin: auto;
+  border-radius: 0 0 10px 10px
+}
+
+#scrapper div#nose {
+  position: relative;
+  background: lightgrey;
+  width: 8px;
+  height: 6px;
+  margin: auto;
+  top: 19px;
+  border-radius: 2px 2px 0 0;
+}
+
+#scrapper div#faceplate {
+  background: lightgrey;
+  border-top: 1px solid black;
+  border-radius: 0 0 4px 4px;
+  height: 40px;
+  width: 60px;
+  margin: auto;
+}
+
+/* bottom of faceplate */
+#scrapper div#faceplate::before {
+  content: '';
+  position: absolute;
+  top: 65px;
+  border-top: 9px solid lightgrey;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+}
+
+#scrapper div#faceplate::after {
+  background: black;
+  border-radius: 10px 10px 0 0;
+  content: '';
+  height: 45px;
+  left: -5px;
+  position: absolute;
+  width: 10px;
+  top: 25px;
+  box-shadow: 70px 0 0 0 black;
+}
+div#shockwave {
+  background-color: lightblue;
+  height: 300px;
+}
+
+/* Inner Hexagon */
+#shockwave div#face {
+  margin: auto;
+  top: 100px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: relative;
+  box-shadow: 50px 0 0 0 black, 
+    50px 0 0 10px purple,
+    0 0 0 10px purple;
+}
+
+#shockwave div#face::before{
+  content: '';
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: -18px;
+  top: 7px;
+  background: black;
+  transform: rotate(45deg);
+  box-shadow: -8px 8px 0 7px purple;
+}
+
+#shockwave div#face::after {
+  content: '';
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 82px;
+  top: 7px;
+  background: black;
+  transform: rotate(45deg);
+  box-shadow: 8px -8px 0 7px purple;
+}
+
+#shockwave div#eye {
+  position: absolute;
+  height: 26px;
+  width: 26px;
+  left: 37px;
+  top: 12px;
+  background: yellow;
+  border-radius: 13px;
+}
+
+#shockwave div#eye::before{
+  content: '';
+  position: absolute;
+  height: 90px;
+  width: 15px;
+  left: -98px;
+  top: -40px;
+  background: darkgrey;
+}
+
+#shockwave div#eye::after{
+  content: '';
+  position: absolute;
+  height: 90px;
+  width: 15px;
+  left: 109px;
+  top: -40px;
+  background: darkgrey;
+}
+
+div#starscream {
+  background: orangered;
+  height: 300px;
+}
+
+div#starscream div#vents {
+  background: #2B2B2B;
+  background-image: -webkit-linear-gradient();
+  background-image: -moz-linear-gradient();
+  background-image: -o-linear-gradient();
+  background-image: linear-gradient( to bottom,
+    #2B2B2B 10px,
+    black 10px,
+    black 11px,
+    #2B2B2B 11px,
+    #2B2B2B 20px,
+    black 20px,
+    black 21px,
+    #2B2B2B 21px,
+    #2B2B2B 30px,
+    black 30px,
+    black 31px,
+    #2B2B2B 31px,
+    #2B2B2B 40px,
+    black 40px,
+    black 41px,
+    #2B2B2B 41px,
+    #2B2B2B 50px,
+    black 50px,
+    black 51px,
+    #2B2B2B 51px,
+    #2B2B2B 60px,
+    black 60px,
+    black 61px,
+    #2B2B2B 61px,
+    #2B2B2B 70px,
+    black 70px,
+    black 71px,
+    #2B2B2B 71px,
+    #2B2B2B 80px
+  );
+  border-radius: 8px 8px 8px 8px;
+  border-left: 5px solid #222222;
+  border-right: 5px solid #222222;
+  height: 80px;
+  margin: auto;
+  position: relative;
+  top: 110px;
+  width: 106px;
+}
+
+div#starscream div#forehead {
+  background: #222222;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  height: 30px;
+  margin: auto;
+  position: relative;
+  top: 25px;
+  width: 25px;
+  box-shadow: -27px 0 0 0 #222222,
+    -27px -10px 0 0 #222222,
+    27px 0 0 0 #222222,
+    27px -10px 0 0 #222222    
+}
+
+div#starscream div#face-bg {
+  background: #222222;
+  background-image: -webkit-linear-gradient();
+  background-image: -moz-linear-gradient();
+  background-image: -o-linear-gradient();
+  background-image: linear-gradient(to bottom,
+    black 5px,
+    #222 10px,
+    #222 20px,
+    black 20px,
+    black 21px,
+    #222 21px
+  );
+  height: 60px;
+  margin: auto;
+  position: relative;
+  top: 25px;
+  width: 81px;
+}
+
+div#starscream div#faceplate {
+  background: #3F3F3F;
+  background-image: linear-gradient(to bottom,
+    black 5px,
+    transparent 10px
+  ),
+  linear-gradient(to right,
+    #2B2B2B 11px,
+    transparent 11px,
+    transparent 51px,
+    #2B2B2B 51px
+  );   
+  border-radius: 0 0 15px 15px;
+  height: 64px;
+  margin: auto;
+  width: 60px;
+}
+
+div#starscream div.eye {
+  background: red;
+  height: 8px;
+  margin: auto;
+  top: 4px;
+  position: relative;
+  width: 15px;
+}
+
+div#starscream div.eye::before {
+  content: '';
+  position: absolute;
+  border-bottom: 4px solid transparent;
+  border-right: 4px solid red;
+  border-top: 4px solid transparent;
+  left: -4px;
+}
+
+div#starscream div.eye::after {
+  content: '';
+  position: absolute;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid red;
+  border-top: 4px solid transparent;
+  left: 15px;
+}
+
+div#starscream div#lefteye {
+  /*left: -10px*/
+  float: left;
+  left: 5px
+}
+
+div#starscream div#righteye {
+  /*left: 10px; */ 
+  float: right;
+  right: 5px
+}
+
+div#starscream div#nose {
+  background: #555;
+  background-image: linear-gradient(to bottom,
+    black 3px,
+    transparent 7px,
+    transparent 20px     
+  );
+  /*border: 1px solid black;*/
+  height: 22px;
+  margin: auto;
+  width: 10px;
+}
+
+div#starscream div#nose::after {
+  content: '';
+  position: absolute;
+  border-top: 4px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  top: 22px;
+  width: 6px
+}
+
+div#starscream div#mouth {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 0 0 0 5px;
+  height: 3px;
+  margin: auto;
+  position: relative;
+  top: 20px;
+  width: 25px;
+}
+body {
+	margin: 0;
+	font-family: helvetica;
+}
+
+/*-- HEADER SECTION --*/
+
+header {
+	background: #222;
+	color: #D1D1D1;
+	padding: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+header h2 {
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+/*-- NAV SECTION --*/
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+    position: absolute;
+    right: 15px;
+    top: 25px;	
+}
+
+header nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	float: right;
+	padding: 0 5px 0 5px;
+}
+
+header ul li a {
+	color: #AAA;
+}
+
+
+/*-- ABOUT SECTION --*/
+
+div#about {
+    background: #3C3C3C;
+    background-image: linear-gradient( to bottom, black 0, transparent 6px), linear-gradient( to top, black 0, transparent 6px );
+    color: #AAA;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    font-family: helvetica;
+}
+
+div#about a {
+	color: white;
+}
+
+div#about .credits {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+div#about .credits li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0 5px 0 5px;
+}
+
+div#about .inspiration {
+	list-style-type: none;
+	margin: 5px 0 5px 5px;
+}
+
+/*-- ENTRIES SECTION --*/
+
+div.entry.wide {
+	width: 100%;
+}
+
+@media (min-width: 960px) {
+	.entry {
+		float: left;
+		width: 50%;
+	}
+}
+
+/*-- UTITLITY SECTION --*/
+
+.hidden {
+	display: none;
+}
+#wheeljack {
+  background-color: red;
+  height: 300px;
+}
+
+#wheeljack #face {
+  margin: auto;
+  position: relative;
+  display: block;
+}
+
+#wheeljack #faceplate::before {
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 30px;
+  left: -80px;
+  border-left: 20px solid transparent;
+  border-top: 0px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-right: 60px solid grey;
+  top: -20px;
+}
+
+#wheeljack #faceplate::after {
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 30px;
+  left: 100px;
+  border-left: 20px solid transparent;
+  border-top: 0px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-right: 60px solid grey;
+  top: -20px;
+  transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+}
+
+#wheeljack #forehead {
+  position: relative;
+  width: 100px;
+  margin: auto;
+  height: 40px;
+  top: 84px;
+  background: grey;
+  border-radius: 50px 50px 0 0;
+}
+
+#wheeljack #mohawk, #wheeljack #mohawk::before, #wheeljack #mohawk::after {
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  background: lightgrey;
+}
+
+#wheeljack #mohawk {
+    left: 40px;
+    top: -20px;
+}
+
+#wheeljack #mohawk::before {
+  content: '';
+  left: -45px;
+  top: 10px;
+  transform: rotate(-45deg);
+}
+
+#wheeljack #mohawk:after {
+  content: '';
+  left: 45px;
+  top: 10px;
+  transform: rotate(45deg);
+}
+#wheeljack #nose::before, #wheeljack #nose::after {
+  position: absolute;
+  background-color: lightblue;
+  content: '';
+  width: 30px;
+  height: 15px;
+  top: 90px;
+}
+
+#wheeljack #nose::before {
+  left: -40px;
+}
+
+#wheeljack #nose::after {
+  left: 10px;
+}
+
+#wheeljack #nose {
+  background-color: red;
+  position: relative;
+  margin: auto;
+  width: 1px;  
+}
+
+#wheeljack #faceplate {
+  position: relative;
+  background-color: grey;
+  height: 65px;
+  width: 100px;
+  border-radius: 0 0 40px 40px;
+  margin: auto;
+  top: 100px;
+}
+
+#wheeljack hr#faceplate-divider {
+  top: 5px;
+  width: 100px;
+  height: 1px;
+  background: lightgrey;
+}
+
+#wheeljack hr#faceplate-divider::before {
+  position: absolute;
+  content: '';
+  width: 92px;
+  left: 4px;
+  top: 40px;
+  height: 2px;
+  background: lightgrey;
+}
+
+/*#faceplate::before, #faceplate::after {
+  position: absolute;
+  height: 4px;
+  width: 100px;
+  left: 0;
+  background: black;
+  content: '';
+}
+
+#faceplate::before {
+  top: 20px;
+}
+
+#faceplate::after {
+  top: 45px;
+}
+*/
